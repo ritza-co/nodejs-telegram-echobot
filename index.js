@@ -3,7 +3,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 
 bot.command('start', ctx => {
     console.log(ctx.from)
-    bot.telegram.sendMessage(ctx.chat.id, 'Hello there! Welcome to the Code Capsules telegram bot.\nI echo messages. Please try it', {
+    bot.telegram.sendMessage(ctx.chat.id, 'Hello there! Welcome to the Code Capsules NodeJS telegram bot.\nI echo messages. Please try it', {
     })
 })
 
